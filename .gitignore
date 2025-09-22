@@ -1,0 +1,31 @@
+# Node
+node_modules/
+*.log
+.next/
+.next-cache/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Rust
+/target/
+Cargo.lock
+
+# OCaml / Dune
+_build/
+*.install
+*.merlin
+
+# OS / Misc
+.DS_Store
+.idea/
+.vscode/
+
+# Data
+/data/*.parquet
+/data/*.arrow
+/data/*.bin
+/data/*.ndjson
