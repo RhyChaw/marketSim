@@ -1,0 +1,5 @@
+(library
+ (name core_ocaml)
+ (public_name marketsim.core)
+ (modules :standard)
+)
