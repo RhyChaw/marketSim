@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "market-sim-sdk"
+version = "0.1.0"
+description = "Python SDK for marketSim replay orchestrator"
+authors = [{ name = "marketSim" }]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "websockets>=12.0",
+  "requests>=2.31.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/RhyChaw/marketSim"
+
+[tool.setuptools]
+package-dir = {"" = "."}
+packages = ["market_sim_sdk"]

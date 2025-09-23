@@ -1,2 +1,4 @@
-__all__ = []
-__version__ = "0.0.0"
+from .client import MarketSimClient, ReplayControl
+
+__all__ = ["MarketSimClient", "ReplayControl"]
+__version__ = "0.1.0"

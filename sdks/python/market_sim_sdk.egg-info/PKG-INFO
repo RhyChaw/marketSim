@@ -1,0 +1,30 @@
+Metadata-Version: 2.4
+Name: market-sim-sdk
+Version: 0.1.0
+Summary: Python SDK for marketSim replay orchestrator
+Author: marketSim
+Project-URL: Homepage, https://github.com/RhyChaw/marketSim
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: websockets>=12.0
+Requires-Dist: requests>=2.31.0
+
+# market-sim-sdk (Python)
+
+Async client to subscribe to replay events via WebSocket and control the replay via REST.
+
+## Install (editable)
+
+```
+pip install -e .
+```
+
+## Usage
+
+```
+python examples/print_events.py
+```
+
+Environment variables:
+- `MARKETSIM_BASE` (default: http://localhost:4000)
+- `MARKETSIM_WS` (default: ws://localhost:4000/ws)
